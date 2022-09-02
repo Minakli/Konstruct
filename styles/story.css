@@ -1,0 +1,8 @@
+.our_story_cards {
+display: flex;
+} 
+.story_btn {
+    width: 150px;
+    height: 40px;
+    border: 1px solid blue;
+}

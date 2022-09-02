@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 411px;
+    margin: 0 0 0 500px;
+}
+.konst_logo {
+    display: inline-block;
+    max-width: 80px;
+    max-height: 18px;
+}
+.header_menu {
+    box-sizing: border-box;
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: #F2F2F2;
+    padding: 24px;
+}
