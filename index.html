@@ -1,63 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <title>Base_konstruct.</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/menu.css" />
+    <link rel="stylesheet" href="./styles/story.css" />
+    <link rel="stylesheet" href="./styles/capabilities.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Base_konstruct</title>
+  </head>
+  <body>
     <header>
-    <section id="header" class="header">
-        <div>
-            <img src="./images/header/header.jpg" alt="header"
-            width="100%"
-            height="auto"/>
-        </div>
-        <div class="header_menu">
-            <div class="konst_logo"><img src="./images/header/Konstract_logo.svg" alt="konstract"
-            width="80"
-            height="18"/>
-            </div>
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Servises</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        </div>    
-    </section>
+      <img
+        src="./images/header/Konstract_logo_white.svg"
+        alt="logo"
+        width="102"
+        height="23"
+      />
+      <h1>PARTNER WITH KONSTRUCT</h1>
+      <p>An award-winning construction management firm</p>
+      <a href="#story">SCROLL DOWN</a>
     </header>
     <main>
-    <section id="our_story">
-        <h3>OUR STORY</h3>
-        <div class="our_story_cards">
-            <p>Founded in 2011 by John Mathew Smith, Konstruct has become the number one construction management</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-            <div><img src="./images/header/We plan.jpg" alt="We plan"
-            width="140"
-            height="224"/></div>
-            <div><img src="./images/header/We plan.jpg" alt="We plan"
-            width="140"
-            height="224"/></div>
-            <div><img src="./images/header/We plan.jpg" alt="We plan"
-            width="140"
-            height="224"/></div>
-        </div>
-        <div class="lower story">
-            <p>OUR CAPABILITIES</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-            <button class="story_btn">
-                <a href="#">ALL SERVICES</a>
-            </button>
-        </div>
+      <div class="container">
+        <nav>
+          <img src="./images/header/Konstract_logo_black.svg" alt="logo" />
+          <ul>
+            <a href="#story">HOME</a>
+            <a href="#capabilities">ABOUT</a>
+            <a href="#">SERVISES</a>
+            <a href="#">WORK</a>
+            <a href="#footer">CONTACT</a>
+          </ul>
+        </nav>
+      </div>
+      <section id="story" class="story">
+        <h2>OU<span>R STO</span>RY</h2>
+        <div class="container">
+        <div class="story_everything">
+          <div class="story_text">
+            <a class="story_uppertext" href="#">
+            Founded in 2011 by John Mathew Smith, Konstruct has become the
+            number one construction management
+            </a>
+          <p class="story_lowertext">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          </div>
+          <div class="story_images">
+            <img
+              src="./images/header/plan.jpg"
+              alt="We plan"
+              width="140"
+              height="224"
+            />
+            <img
+              src="./images/header/manage.jpg"
+              alt="We manage"
+              width="140"
+              height="224"
+            />
+            <img
+              src="./images/header/build.jpg"
+              alt="We build"
+              width="140"
+              height="224"
+            />
+          </div>
+      </div>
+      </div>
     </section>
-    <section></section>
+      <section id="capabilities" class="capabilities">
+        <div class="container">
+          <div class="capabilities_upper">
+          <h2><span>OUR</span> CAPABILITIES</h2>
+          <div class="capabilities_upper-right">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          <button class="capabilities_btn">
+            <a href="#">ALL SERVICES</a>
+          </button>
+        </div>
+        </div>
+        <div class="capabilities_block-cards">
+          <div class="capabilities_card">
+            <img src="./images/footer/project.svg"/>
+            <p class="calabilities_first-p">PROJECT AND CONSTRUCTION MANAGEMENT</p>
+            <p class="calabilities_second-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          </div>
+          <div class="capabilities_card">
+            <img src="./images/footer/structure.svg"/>
+            <p class="calabilities_first-p">STRUCTURE AUDIT AND MAINTENANCE</p>
+            <p class="calabilities_second-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          </div>
+          <div class="capabilities_card">
+            <img src="./images/footer/factory.svg"/>
+            <p class="calabilities_first-p">FACTORY CONSTRUCTION AND MODELING</p>
+            <p class="calabilities_second-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          </div>
+        </div>
+        </div>
+      </section>
     </main>
-    <section></section>
-</body>
+    <footer id="footer">
+        <div class="footer_image">
+          <h3>Want to build something amazing?</h3>
+          <button class="footer_image_btn">
+            <a href="#">GET IN TOUCH</a>
+          </button>
+        </div>
+        <div class="footer_form">
+          <div class="footer_block">
+            <p>Newsletter Signup</p>
+              <div class="footer_input">
+              <input type="text" placeholder="test@youremail.com">
+              <button>
+              <a href="#">SIGNUP</a>
+              </div>
+            </button>
+          </div>
+          <p>© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+        </div>
+    </footer>
+  </body>
 </html>

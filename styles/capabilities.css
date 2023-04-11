@@ -1,0 +1,105 @@
+.capabilities_upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 78px;
+}
+
+.capabilities_upper p {
+    max-width: 405px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #48555B;
+    margin-right: 31px;
+}
+
+.capabilities_upper-right {
+display: flex;
+}
+/* .capabilities button {
+    padding: 11px 29px;
+    border: 0;
+    background-color: #00A4E5;
+    cursor: pointer;
+    transition: 1s;
+    max-width: 150px;
+    max-height: 40px;
+} */
+
+/* .capabilities button a {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.5px;
+text-align: center;
+color: #FFFFFF;
+} */
+
+/* .capabilities button:hover {
+    transform:scale(1.1)
+}
+
+.capabilities button:active {
+    transform:scale(0.9)
+} */
+
+.capabilities_block-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+
+.capabilities_card {
+    padding: 38px 23px;
+    box-sizing: border-box;
+    max-width: 295px;
+    border: 1px solid #E6E6E6
+}
+.calabilities_first-p {
+    margin: 25px 0 13px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #48555B;
+}
+.calabilities_second-p {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #48555B;
+}
+@media (max-width: 870px) {
+    .capabilities_upper {
+        flex-direction: column;
+    }
+        .capabilities_upper-right {
+            margin-top: 30px;
+        }
+}
+
+@media (max-width: 670px) {
+    .capabilities_upper-right {
+        flex-direction: column;
+        align-items: center;
+    }
+        .capabilities_upper p {
+            margin: 0 31px 30px 31px;
+        }
+}
+@media (max-width: 610px) {
+    .capabilities_block-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

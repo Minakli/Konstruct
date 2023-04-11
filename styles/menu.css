@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  padding: 24px 0;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  width: 411px;
+  justify-content: space-between;
+}
+
+nav ul a {
+  display: block;
+  text-decoration: none;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #48555b;
+}
+
+nav ul a:hover {
+  color: #00a4e5;
+}
+
+nav ul a:active {
+  color: #7dd6f7;
+}
+@media (max-width: 580px) {
+  nav ul {
+    display: none;
+  }
+}
+/* Здесь надо дорисовать меню < 580px */

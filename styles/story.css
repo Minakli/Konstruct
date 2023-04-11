@@ -1,8 +1,67 @@
-.our_story_cards {
+.story_text {
 display: flex;
+flex-direction: column;
+/* justify-content: space-between; */
+align-items: center;
+max-width: 405px;
+gap: 30px;
 } 
-.story_btn {
-    width: 150px;
-    height: 40px;
-    border: 1px solid blue;
+
+.story {
+    padding: 48px 0 128px;
+    border-top: 1px solid #e6e6e6;
+    background: #FFFFFF;
+  }
+  .story_uppertext {
+    display: block;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.19px;
+    text-align: left;
+    color: #48555B;
+  }
+  .story_uppertext:hover {
+     color: #16ACE8;
+  }
+  .story_uppertext:active {
+    color: #7dd6f7;
+ }
+  .story_lowertext {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.18750004470348358px;
+text-align: left;
+color: #48555B;
+  }
+
+.story_everything {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 84px;
+  }
+.story_images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 460px;
+}
+
+@media (max-width: 960px) {
+.story_everything {
+flex-direction: column;
+}
+.story img {
+  margin-top: 30px;
+}
+}
+@media (max-width: 480px) {
+.story_images {
+  flex-direction: column; 
+}
 }
